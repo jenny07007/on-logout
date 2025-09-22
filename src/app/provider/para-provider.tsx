@@ -50,6 +50,7 @@ export function ParaProvider({
         authLayout: ["AUTH:FULL", "EXTERNAL:FULL"],
         oAuthMethods: ["GOOGLE", "TWITTER"],
         onRampTestMode: true,
+        supportedAccountLinks: ["EMAIL", "TWITTER", "GOOGLE"],
         theme: {
           foregroundColor: "#010101",
           backgroundColor: "#F8F8F8",
